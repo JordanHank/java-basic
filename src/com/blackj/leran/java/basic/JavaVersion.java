@@ -10,7 +10,7 @@ package com.blackj.leran.java.basic;
  * @author Zhang.Haixin
  * @version 1.0
  */
-public class javaVersion {
+public class JavaVersion {
 
     /*
     java主要分三个版本：
