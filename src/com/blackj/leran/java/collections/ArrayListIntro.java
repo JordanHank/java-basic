@@ -20,7 +20,7 @@ public class ArrayListIntro {
      * 继承自AbstractLis，有实现了List接口，可以使用添加、修改、删除遍历等功能
      * 实现了RandomAccess接口，提供随机访问功能，即通过数组下标访问元素
      * 实现了Cloneable接口，覆盖了函数clone()，能被克隆
-     * java.io.Serializable接口，支持序列化，能通过序列化去传输
+     * 实现了java.io.Serializable接口，支持序列化，能通过序列化去传输
      * 和Vector不同的是ArrayList不是线程安全的，所以涉及多线程的时候不建议使用
      *
      * ArrayList的构造函数：
