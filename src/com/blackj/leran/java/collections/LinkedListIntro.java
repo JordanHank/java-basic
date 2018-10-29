@@ -114,10 +114,10 @@ public class LinkedListIntro {
         System.out.println("linkedList数组移除最后一个元素后最后一元素为：" + last);
         System.out.println();
 
-        //通过for循环遍历
+        //通过for循环遍历 不推荐使用 速度很慢
         System.out.println("通过for循环遍历:");
         for (int i = 0; i < linkedList.size(); i++) {
-            System.out.print(linkedList.peek() + " ");
+            System.out.print(linkedList.get(i) + " ");
         }
         System.out.println();
 
@@ -132,46 +132,67 @@ public class LinkedListIntro {
         System.out.println("linkedList数组移除第一个元素：" + pop);
         System.out.println();
 
-        //for增强循环
+        //for增强循环 推荐使用
         System.out.println("for增强循环：");
         for (Object o: linkedList) {
             System.out.print(o + " ");
         }
         System.out.println();
+        System.out.println();
 
+        //拷贝数组
         LinkedList copy = (LinkedList) linkedList.clone();
+        LinkedList copy1 = (LinkedList) linkedList.clone();
+        LinkedList copy2 = (LinkedList) linkedList.clone();
+        LinkedList copy3 = (LinkedList) linkedList.clone();
 
+        /**
+         * 下面的遍历方法都会移除原始数据：
+         * 使用removeFist()或removeLast()效率最高
+         */
         //通过pollFirst()来遍历LinkedList
         System.out.println("通过pollFirst()来遍历LinkedList：");
-        while (copy.pollFirst() != null) {
-            System.out.print(copy.pollFirst() + " ");
-        }
+        do {
+            if (copy.size() > 0) {
+                System.out.print(copy.getFirst() + " ");
+            }
+        } while (copy.pollFirst() != null);
+
+        System.out.println();
         System.out.println();
 
         //通过pollLast()来遍历LinkedList
         System.out.println("通过pollLast()来遍历LinkedList：");
-        while (copy.pollLast() != null) {
-            System.out.print(copy.pollLast() + " ");
-        }
+        do {
+            if (copy1.size() > 0) {
+                System.out.print(copy1.getLast() + " ");
+            }
+        } while (copy1.pollLast() != null);
+        System.out.println();
         System.out.println();
 
         //通过removeFirst()来遍历LinkedList
         System.out.println("通过removeFirst()来遍历LinkedList：");
         try {
-            while(copy.removeFirst() != null) {
-                System.out.print(copy.pollFirst() + " ");
-            }
+            do {
+                if (copy2.size() > 0) {
+                    System.out.print(copy2.getFirst() + " ");
+                }
+            } while(copy2.size() > 0 && copy2.removeFirst() != null);
             System.out.println();
         } catch (NoSuchElementException e) {
             e.printStackTrace();
         }
+        System.out.println();
 
         //通过removeLast()来遍历LinkedList
         System.out.println("通过removeLast()来遍历LinkedList：");
         try {
-            while(copy.removeLast() != null) {
-                System.out.print(copy.pollFirst() + " ");
-            }
+            do {
+                if (copy3.size() > 0) {
+                    System.out.print(copy3.getLast() + " ");
+                }
+            } while(copy3.size() > 0 && copy3.removeLast() != null);
             System.out.println();
         } catch (NoSuchElementException e) {
             e.printStackTrace();
