@@ -54,6 +54,9 @@ public class HashMapIntro {
         System.out.println("name为：" + name);
         System.out.println();
 
+        //克隆HashMap
+        HashMap clone = (HashMap) hashMap.clone();
+
         //允许键值对为空
         hashMap.put(null, null);
         System.out.println("key 为null 时value为 " + hashMap.get(null));
@@ -86,9 +89,6 @@ public class HashMapIntro {
         int size = hashMap.size();
         System.out.println("hashMap的容量为：" + size);
         System.out.println();
-
-        //克隆HashMap
-        HashMap clone = (HashMap) hashMap.clone();
 
         //通过键移除键值对
         Object ret = hashMap.remove("name");
@@ -125,9 +125,8 @@ public class HashMapIntro {
             System.out.println("key: " + key + " value: " + value);
         }
         System.out.println();
-        System.out.println();
 
-        //通过遍历键遍历
+        //通过遍历键遍历 无法获取键key
         System.out.println("通过遍历键遍历");
         iterator = clone.keySet().iterator();
         while (iterator.hasNext()) {
@@ -138,14 +137,13 @@ public class HashMapIntro {
             System.out.println("key: " + key + " value: " + value);
         }
         System.out.println();
-        System.out.println();
 
         //通过遍历值遍历
         System.out.println("通过遍历值遍历");
         Collection collection = clone.values();
         iterator = collection.iterator();
         while (iterator.hasNext()) {
-            System.out.print(iterator + " ");
+            System.out.print(iterator.next() + " ");
         }
     }
 
