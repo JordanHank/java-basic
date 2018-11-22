@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="description" content="Description">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+</head>
+<body>
+<nav>
+    <!--可以直接在 HTML 里定义导航栏，要注意链接要以 #/ 开头-->
+    <a href="#/">EN</a>
+    <a href="#/zh-cn/">中文</a>
+</nav>
+<!--初始化时会显示 Loading... 内容-->
+<div id="app">Loading...</div>
+<script>
+    window.$docsify = {
+        loadSidebar: true, //定制侧边栏
+        subMaxLevel: 2, //自定义侧边栏同时也可以开启目录功能
+        maxLevel: 4, //最大支持渲染的标题层级
+        loadNavbar: true, //通过 Markdown 文件来配置导航
+        coverpage: true, //设置封面
+        auto2top: true, //切换页面后是否自动跳转到页面顶部
+        nameLink: '/', //点击文档标题后跳转的链接地址
+        homepage: '/zh-cn/README.md',
+        notFoundPage: true, //加载404压面
+        name: 'java-basic', //项目名称
+        repo: 'https://github.com/JordanHank/java-basic.git', //仓库地址
+
+        search: 'auto', // 默认值
+
+        search : [
+            // '/',            // => /README.md
+            // '/guide',       // => /guide.md
+            // '/get-started', // => /get-started.md
+            '/zh-cn/',      // => /zh-cn/README.md
+        ],
+
+        // 完整配置参数
+        search: {
+            maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+            paths: [], // or 'auto'
+            placeholder: 'Type to search',
+
+            // 支持本地化
+            placeholder: {
+                '/zh-cn/': '搜索',
+                '/': 'Type to search'
+            },
+
+            noData: 'No Results!',
+
+            // 支持本地化
+            noData: {
+                '/zh-cn/': '找不到结果',
+                '/': 'No Results'
+            },
+
+            // 搜索标题的最大程级, 1 - 6
+            depth: 2
+        },
+
+        //自定义插件
+        plugins: [
+            function (hook) {
+                hook.init(function() {
+                    // 初始化时调用，只调用一次，没有参数。
+                })
+
+                hook.beforeEach(function(content) {
+                    // 每次开始解析 Markdown 内容时调用
+                    return content
+                })
+                var footer = [
+                    '<hr/>',
+                    '<footer>',
+                    '<span>Collated by <a href="http://www.blackj.site" target="_blank">Jordan Zhang</a>.</span>',
+                    '</footer>'
+                ].join('')
+
+                hook.afterEach(function (html) {
+                    // 解析成 html 后调用。beforeEach 和 afterEach 支持处理异步逻辑
+                    // 异步处理完成后调用 next(html) 返回结果
+                    return html + footer
+                })
+
+                hook.doneEach(function() {
+                    // 每次路由切换时数据全部加载完成后调用，没有参数。
+                    // ...
+                })
+
+                hook.mounted(function() {
+                    // 初始化完成后调用 ，只调用一次，没有参数。
+                })
+
+                hook.ready(function() {
+                    // 初始化并第一次加完成数据后调用，没有参数。
+                })
+            }
+        ]
+    }
+</script>
+<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+<script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
+<script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
+<script src="//unpkg.com/docsify-copy-code"></script>
+<script src="//unpkg.com/docsify"></script>
+<script src="//unpkg.com/prismjs/components/prism-bash.js"></script>
+<script src="//unpkg.com/prismjs/components/prism-php.js"></script>
+<script src="//unpkg.com/prismjs/components/prism-java.js"></script>
+</body>
+</html>
