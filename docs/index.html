@@ -28,6 +28,7 @@
         nameLink: '/', //点击文档标题后跳转的链接地址
         homepage: '/zh-cn/README.md',
         notFoundPage: true, //加载404压面
+        basePath: '/', //文档加载的根路径，可以是二级路径或者是其他域名的路径
         name: 'java-basic', //项目名称
         repo: 'https://github.com/JordanHank/java-basic.git', //仓库地址
 
@@ -105,12 +106,13 @@
     }
 </script>
 <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+<script src="//unpkg.com/vue"></script>
 <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
 <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
 <script src="//unpkg.com/docsify-copy-code"></script>
-<script src="//unpkg.com/docsify"></script>
 <script src="//unpkg.com/prismjs/components/prism-bash.js"></script>
 <script src="//unpkg.com/prismjs/components/prism-php.js"></script>
 <script src="//unpkg.com/prismjs/components/prism-java.js"></script>
+<script src="//unpkg.com/prismjs/components/prism-java.min.js"></script>
 </body>
 </html>
