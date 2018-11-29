@@ -8,4 +8,4 @@
 * 快速上手Java 
 
 [GitHub](https://github.com/JordanHank/java-basic/)
-[Get Started](#java-basic)
+[Get Started](/README#java-basic)
