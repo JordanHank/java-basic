@@ -1,12 +1,12 @@
-# java-basic
+# java-basic :id=java-basic
 
-> 项目介绍
+## 项目介绍
 
 java-basic是由本人个人整理的Java 
 基础教学文档开源工程，仅用于巩固个人Java基础知识，加深对Java的理解，同时欢迎其他java
 新手作为上手文档查看，其中大量参考了[菜鸟教程](https://www.runoob.com)关于Java的教程内容，再次表示感谢。由于文档内容来源于网络整理以及我个人的理解，有任何不对或者侵权的的地方，欢迎来我的[github](https://github.com/JordanHank/java-basic)进行指正。
 
-> Hello World
+## Hello World :id=hello-world
 
 创建一个HelloWorld.text的文本文件，用编辑器打开编写这个文件的代码，写入下面的代码另存为HelloWorld.java文件。
 
