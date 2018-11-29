@@ -7,3 +7,6 @@
     * [环境配置](/environment)
     * [Java 编译过程](/compile)
     
+* 基础语法
+    * [基本语法](/basicgrammer)  
+    
