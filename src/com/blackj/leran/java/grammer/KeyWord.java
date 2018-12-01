@@ -18,7 +18,7 @@ public class KeyWord {
      *      访问控制符：private protect public
      *      用于定义类、方法、变量的修饰关键字：final abstract static synchronized
      *      用于定义类与类之间的关系：extends implements
-     *      用于创建示例、或判断：new this super instanceof
+     *      用于创建实例、或判断：new this super instanceof
      *      用于异常处理：try catch finally throw throws
      *      用于包：package import
      *      用于定义数据类型：class interface byte short int long float double char boolean void
