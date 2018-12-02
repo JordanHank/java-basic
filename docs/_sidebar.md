@@ -11,4 +11,4 @@
     * [基本语法](/basicgrammer)  
     * [标志符](/identifier)
     * [关键字](/keyword)
-    
+    * [变量](/variable)
