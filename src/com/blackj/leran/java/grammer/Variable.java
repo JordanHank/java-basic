@@ -14,7 +14,7 @@ public class Variable {
 
     /**
      * java变量是指java程序运行中，需要动态改变值得某个量，这个和常量是相对的。
-     * 变量这个次不是java独有的，类似数学、物理等科学学科中经常使用变量这个词
+     * 变量这个词不是java独有的，类似数学、物理等科学学科中经常使用变量这个词
      * 数学中 x = y + 7 其中x、y就是变量
      * 而java中定义一个变量需要三大要素：数据类型 变量名 初始值
      * 定义变量名需要使用合法的标志符否则会编译报错
@@ -59,7 +59,7 @@ public class Variable {
 
 class Demo {
 
-    //类变零
+    //类变量
     public static String name = "Demo";
 
     //实例变量
