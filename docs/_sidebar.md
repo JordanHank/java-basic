@@ -12,3 +12,4 @@
     * [标志符](/identifier)
     * [关键字](/keyword)
     * [变量](/variable)
+    * [常量](/constants)
