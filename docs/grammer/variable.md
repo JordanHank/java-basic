@@ -1,6 +1,6 @@
 # 变量
 
-Java 变量是指java程序运行中，需要动态改变值得某个量，这个和[常量](/constants)是相对的。
+Java 变量是指java程序运行中，需要动态改变值得某个量，这个和[常量](/grammer/constants)是相对的。
 变量这个词不是Java 独有的，类似数学、物理等科学学科中经常使用变量这个词，
 数学中 x = y + 7 其中x、y就是变量。
 
@@ -116,4 +116,4 @@ class Demo {
 
 执行结果：
 
-![变量执行结果](_media/grammer/variableResult.png)
+![变量执行结果](../_media/grammer/variableResult.png)

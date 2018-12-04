@@ -3,14 +3,15 @@
 * [java介绍](/introduce)
 
 * 基础
-    * [Java Version](/java-version)
-    * [环境配置](/environment)
-    * [Java 编译过程](/compile)
+    * [Java Version](/basic/java-version)
+    * [环境配置](/basic/environment)
+    * [Java 编译过程](/basic/compile)
     
 * 基础语法
-    * [基本语法](/basicgrammer)  
-    * [标志符](/identifier)
-    * [关键字](/keyword)
-    * [变量](/variable)
-    * [常量](/constants)
-    * [注释](/annotation)
+    * [基本语法](/grammer/basicgrammer)  
+    * [标志符](/grammer/identifier)
+    * [关键字](/grammer/keyword)
+    * [变量](/grammer/variable)
+    * [常量](/grammer/constants)
+    * [注释](/grammer/annotation)
+    * [对象](/grammer/objdeclare)

@@ -21,7 +21,7 @@ Java程序是在虚拟机中运行，而不是操作系统本身，这就是它�
 文件进行检查，包括类型检查，数组越界检查，空指针检查等。整个执行过程中，JVM
 会占用一段内存空间用于存储执行期间需要用到的数据和相关信息，这段空间一般被称作为Runtime Data Area（运行时数据区），也就是我们常说的JVM内存。
 
-![java文件编译执行过程](_media/basic/javaCompiler.png)
+![java文件编译执行过程](../_media/basic/javaCompiler.png)
 
 ## 查找过程
 
