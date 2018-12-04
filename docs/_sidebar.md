@@ -2,7 +2,7 @@
 
 * [java介绍](/introduce)
 
-* 基础
+* 基础 
     * [Java Version](/basic/java-version)
     * [环境配置](/basic/environment)
     * [Java 编译过程](/basic/compile)
@@ -15,3 +15,4 @@
     * [常量](/grammer/constants)
     * [注释](/grammer/annotation)
     * [对象](/grammer/objdeclare)
+    * [方法](/grammer/function)

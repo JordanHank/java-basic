@@ -2,11 +2,11 @@
 
 在现实生活中我们指代同一类事物的时候，往往是定义了些词语来表示这类事物，比如车、灯、动物、人灯。同样的在Java 中也有这样用处的词语，我们称之为关键字。Java 关键字是指在Java 语言中有特殊含义或者作用的名称，简单点说就是一些单词。
 
-## 分类
+## 分类 :id=keyword-type
 
 Java 关键字根据功能和用途分为以下几种：
 
-+ 访问控制符：private、 protect、 public
++ 访问控制符：private、 默认、 protect、 public
 
 + 用于定义类、方法、变量的修饰关键字：final、 abstract、 static、 synchronized
 
@@ -23,6 +23,16 @@ Java 关键字根据功能和用途分为以下几种：
 + 用于定义数值：true、 false、 null
 
 + 用于控制循环：if、 else、 for、 do、 while、 switch、 case、 default、 break、 continue、 return
+
+##### 访问权限修饰符-使用范围比较： :id=access-permission
+
+| 使用范围 |  private |  默认访问权限 | protect | public |
+|:--:|:--:|:--:|:--:|:--:|
+| 类内部 | 是 | 是 | 是 | 是 |
+| 相同包中子类 | 否 | 是 | 是 | 是 |
+| 相同包中的非子类 | 否 | 是 | 是 | 是 |
+| 不同包中的子类 | 否 | 否 | 是 | 是 |
+| 不同包中的非子类子类 | 否 | 否 | 否 | 是 |
 
 ## 注意项
 
