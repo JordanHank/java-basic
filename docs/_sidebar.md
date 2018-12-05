@@ -17,3 +17,6 @@
     * [对象](/grammer/objdeclare)
     * [方法](/grammer/function)
     * [正则表达式](/grammer/regex)
+    
+* 数据类型
+    * [基本类型](/datetype/basictype)
