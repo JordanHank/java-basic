@@ -7,7 +7,7 @@
     * [环境配置](/basic/environment)
     * [Java 编译过程](/basic/compile)
     
-* 基础语法
+* 语法
     * [基本语法](/grammer/basicgrammer)  
     * [标志符](/grammer/identifier)
     * [关键字](/grammer/keyword)
@@ -16,3 +16,4 @@
     * [注释](/grammer/annotation)
     * [对象](/grammer/objdeclare)
     * [方法](/grammer/function)
+    * [正则表达式](/grammer/regex)
