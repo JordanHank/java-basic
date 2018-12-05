@@ -1,4 +1,4 @@
-package com.blackj.leran.java.datetype;
+package com.blackj.leran.java.datatype;
 
 /**
  * Program Name: java-basic

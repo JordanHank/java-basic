@@ -1,7 +1,5 @@
-package com.blackj.leran.java.datetype;
+package com.blackj.leran.java.datatype;
 
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 /**

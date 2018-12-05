@@ -19,4 +19,4 @@
     * [正则表达式](/grammer/regex)
     
 * 数据类型
-    * [基本类型](/datetype/basictype)
+    * [基本类型](/datatype/basictype)
