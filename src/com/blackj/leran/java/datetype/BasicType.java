@@ -14,7 +14,7 @@ public class BasicType {
 
     /**
      * java中内置了8中基本类型：六种数字类型（四中整数型，两种浮点型），一种字符型，一种布尔型。
-     * 数字类型：存储空间从小到大
+     * 数据类型：存储空间从小到大
      *      byte：表示8位有符号位的以二进制补码表示的整数；
      *            最小值-128（-2^7)、最大值127（2^7 -1)、默认值为0
      *      short：表示16位有符号位的以二进制补码表示的整数；
@@ -40,7 +40,7 @@ public class BasicType {
     public static void main(String [] args) {
 
         /**
-         * 8中基本类型对应有8中包装类型：
+         * 8种基本类型对应有8种包装类型：
          *      Byte、Short、Integer、Long、Float、Double、Character、Boolean
          * 当基本类型转换成包装类型的时候会进行装箱
          * 而当包装类型转换成基本类型的时候会进行拆箱
@@ -83,7 +83,6 @@ public class BasicType {
         String binary = "1101";
         String ten = TransferScaleUtil.decode2To10(binary);
         System.out.println("二进制1101转换为十进制为" + ten);
-
 
         int seven = 7;
         System.out.println("十进制7转换为二进制为" + TransferScaleUtil.encode10To2(seven));
