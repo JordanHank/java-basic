@@ -1,4 +1,4 @@
-package com.blackj.leran.java.datatype;
+package com.blackj.leran.java.grammer;
 
 /**
  * Program Name: java-basic
@@ -26,7 +26,7 @@ public class Modifier {
      *      private:只有同类里可见，主要是用来定义属性，私有方法，
      *          是java封装特性的体现，内部可见细节，外部不可使用。
      *      default:默认访问权限，什么也不写，表示同包可见。
-     *      protect:表示同包的类和所有子类可见，子类概念后面讲继承的时候会将。
+     *      protect:表示同包的类和所有子类可见，子类概念后面讲继承的时候会讲。
      *      public:表示类可见。
      *
      */
@@ -45,18 +45,18 @@ public class Modifier {
          *      静态属性存储在静态区，同一个类不管有多少实例，静态属性值只有一份
          *      静态方法不能使用类的非静态变量
          */
-        System.out.println("Demo的name值为" + Demo.getName());
+        System.out.println("Demo的name值为" + AbstractDemo.getName());
 
         /**
          *      final修饰符，表示不可以改变的。
          *      修饰变量的时候，表示不能重新赋值，只允许赋值一次，常和static一起使用表示常量
          *      修饰方法的时候，表示子类继承不允许覆盖
          */
-        System.out.println("demo的father是" + Demo.FATHER);
+        System.out.println("demo的father是" + AbstractDemo.FATHER);
 
         /**
          *      abstract修饰符表示抽象的
-         *      修饰类时表示抽象类，抽象类可以有非抽象的方法，但是有抽象方法的类必须声明Wie抽象类
+         *      修饰类时表示抽象类，抽象类可以有非抽象的方法，但是有抽象方法的类必须声明为抽象类
          *      修饰方法是表示抽象方法，抽象方法不能有方法体，抽象方法不能用final和static修饰
          *      注意：继承抽象类的子类必须实现所有父类的抽象方法，除非子类也是抽象类。
          */
@@ -85,7 +85,7 @@ public class Modifier {
 }
 
 //抽象类
-abstract class Demo {
+abstract class AbstractDemo {
 
     //私有属性
     private static String name = "secret";
@@ -116,6 +116,7 @@ abstract class Demo {
 }
 
 class VolatileTest implements Runnable{
+
     private volatile boolean flag;
 
     public void run() {
