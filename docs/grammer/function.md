@@ -76,7 +76,7 @@ public class User{
 
 + private 修饰的私有函数，只能在类内部使用。
 
-+ 非 private 修饰的函数，使用范围根据[访问修饰符](/grammer/keyword#access-permission)的不同而有所不同。
++ 非 private 修饰的函数，使用范围根据[访问权限修饰符](/grammer/modifier#access-permission)的不同而有所不同。
 
 ``` java
 
@@ -105,7 +105,7 @@ public class Girl {
 main 函数，又称主函数,是程序执行的入口，其实就是类里的一个特殊函数，main 函数在Java 类中只允许存在一个，并且写法是固定的不允许修改。
 
 固定写法：`public static void main(String [] args)`
-+ public：[访问控制修饰符](/grammer/keyword#keyword-type)，声明该类的访问权限为共有的。
++ public：[访问权限修饰符](/grammer/modifier#access-permission)，声明该类的访问权限为共有的。
 + static：静态修饰符，表明函数是一个[静态函数](#static-method)。
 + void：返回值类型，表示没有返回值。
 + String[] args：形参列表，可以使用命令行编译运行时传递参数，如运行命令：java 类名 参数 参数 ...
