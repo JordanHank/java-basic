@@ -22,3 +22,6 @@
 * 数据类型
     * [基本类型](/datatype/basictype)
     * [运算符](/datatype/operator)
+
+* 语句声名
+    * [顺序语句](/statement/order)
