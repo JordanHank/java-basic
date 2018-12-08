@@ -104,7 +104,7 @@ public class ConditionStatement {
          * }
          * 1.switch语句的选择类型只能是byte,short,int,char和枚举（jdk1.7版本之后）
          * 2.case之间与default么有顺序，先判断所有case，没有批判的case则执行default后面的语句
-         * 3,.如果匹配的case或者default没有跟break结束，程序会继续执行，知道遇到break或则程序结束
+         * 3.如果匹配的case或者default没有跟break结束，程序会继续执行，直到遇到break或则程序结束
          * 4.case的值必须是相同类型的常量，不能是变量
          */
         //判断今天是星期几
