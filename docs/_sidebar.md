@@ -26,3 +26,4 @@
 * 语句声名
     * [顺序语句](/statement/order)
     * [条件语句](/statement/condition)
+    * [循环语句](/statement/circulation)
