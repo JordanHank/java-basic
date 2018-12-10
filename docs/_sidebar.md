@@ -22,6 +22,7 @@
 * 数据类型
     * [基本类型](/datatype/basictype)
     * [运算符](/datatype/operator)
+    * [Number类](/datatype/number)
     * [Math类](/datatype/math)
 
 * 语句声名
