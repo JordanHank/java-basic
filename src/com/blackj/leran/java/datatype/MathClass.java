@@ -32,7 +32,7 @@ public class MathClass {
         System.out.println("a和b中的较大值为" + Math.max(b, a));
 
         //比较两个相同类型的数的较小值 同max方法类似
-        System.out.println("a和b中的较小值为" + Math.max(a, b));
+        System.out.println("a和b中的较小值为" + Math.min(a, b));
 
         double x = randomNum * 4;
         System.out.println("x的值为 " + x);
@@ -43,11 +43,11 @@ public class MathClass {
         System.out.println("x的double绝对值为" + (double) Math.abs(x));
         System.out.println("x的float绝对值为" + (float) Math.abs(x));
 
-        //返回给定参数的大于等于的最小整数
+        //返回大于等于( >= )给定参数的的最小整数
         System.out.println("x的最小整数位" + Math.ceil(x));
 
-        //返回给定参数的小于等于的最大整数
-        System.out.println("x的最小整数位" + Math.ceil(x));
+        //返回小于等于（<=）给定参数的最大整数
+        System.out.println("x的最大整数位" + Math.floor(x));
 
         //给定参数四舍五入后的整数
         System.out.println("x四舍五入后的整数为" + Math.round(x));
