@@ -27,7 +27,7 @@ public class CharacterClass {
         System.out.println("b拆箱后的值为" + b);
 
         /**
-         * 特殊字符的使用需要借助义移字符，转义字符都是前面带有反斜杠\，这样是告诉编译器这个字符具有特殊含义
+         * 特殊字符的使用需要借助转义字符，转义字符都是前面带有反斜杠\，这样是告诉编译器这个字符具有特殊含义
          * 常用的转移字符有：\t插入tab键，\b插入后退键，\n换行，\r回车，\'插入单引号，\"插入双引号，\\插入反斜杠
          */
         System.out.println("这里插入Tab键" + "\t" + "\"结束\"");
@@ -42,7 +42,7 @@ public class CharacterClass {
         }
 
         //判断一个字符是不是数字字符
-        if (Character.isLetter(number)) {
+        if (Character.isDigit(number)) {
             System.out.println(number +"是数字字符");
         } else {
             System.out.println(number +"不是数字字符");
