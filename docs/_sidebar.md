@@ -24,8 +24,10 @@
     * [运算符](/datatype/operator)
     * [Number类](/datatype/number)
     * [Math类](/datatype/math)
+    * [Character类](/datatype/character)
 
 * 语句声名
     * [顺序语句](/statement/order)
     * [条件语句](/statement/condition)
     * [循环语句](/statement/circulation)
+   
