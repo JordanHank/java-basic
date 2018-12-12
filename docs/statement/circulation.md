@@ -64,7 +64,7 @@ while (y < 0) {
 
 `for`循环分为普通`for`循环语句和增强`for`循环语句两种。
 
-#### 普通for循环：
+#### 普通for循环： :id=basic-for
 
 普通`for`循环语句是编写Java 程序中最常用的循环语句，并且支持嵌套使用。使用方式如下：
 ``` text
@@ -117,7 +117,7 @@ while (index < 3) {
 System.out.println("index的值为:" + index);
 ```
 
-#### 增强型for循环:
+#### 增强型for循环:  :id=foreach
 
 Java5 引入了一种主要用于数组的增强型 for 循环。使用方式如下：
 ``` text
