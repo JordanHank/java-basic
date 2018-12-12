@@ -25,6 +25,7 @@
     * [Number类](/datatype/number)
     * [Math类](/datatype/math)
     * [Character类](/datatype/character)
+    * [数组](/datatype/array)
 
 * 语句声名
     * [顺序语句](/statement/order)
