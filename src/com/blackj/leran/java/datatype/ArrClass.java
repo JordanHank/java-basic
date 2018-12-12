@@ -17,13 +17,13 @@ public class ArrClass {
 
     /**
      * 数组在java中是一个数据结构，用于存储相同类型的元素
-     * 数组时一种特殊的类型，在底层内存可以认为连续的内存空间称为数组，而内存空间存储的数据就是对应的数组元素
+     * 数组是一种特殊的类型，在底层内存可以将连续的内存空间称为数组，而内存空间存储的数据就是对应的数组元素
      */
     public static void main(String [] args) {
 
         //数组的定义  数据类型 [] 变量名/数据类型 变量名 [] 两种方式都行，推荐第一种，第二种是C、C++的语言风格
         int [] numbers;
-        //数组的创建 因为数组时特殊的引用类型，所以通过new来创建
+        //数组的创建 因为数组是特殊的引用类型，所以通过new来创建
         //因为数组时连续的内存空间，所以创建时必须确定空间的长度,长度必须是确定的int数据
         int size = 5;
         numbers = new int[size];
@@ -57,8 +57,8 @@ public class ArrClass {
         }
 
         //多维数组的定义以及使用,只需要确定第一维的长度即可
-        //二位数组可以简单的理解为一维数据对应存储的是另一个数组的地址
-        //所以只要确定第一维长度即可，第二维可以在使用的时候在确定长度
+        //二维数组可以简单的理解为一维数据对应存储的是另一个数组的地址
+        //所以只要确定第一维长度即可，第二维可以在使用的时候再确定长度
         String [][] str = new String[4][];
         str [0] = pets;
         str [1] = new String [1];
@@ -136,7 +136,7 @@ public class ArrClass {
         System.out.println("t equals x " + (Arrays.equals(t, x)));
 
         int [] test = {27, 12, 3, 7, 11, 56, 78, 43};
-        SortUtil.fastSort(test, false);
+        SortUtil.bubbleSort(test, true);
         for(int n: test) {
             System.out.print(n + "\t");
         }
@@ -191,24 +191,24 @@ class SortUtil {
             for(int j = i + 1; j < original.length; j++) {
                 if (sort) {
                     //升序排序
-                    if (original[i] < original[j]) {
+                    if (original[j] < original[index]) {
                         index = j;
                     }
                 } else {
                     //降序排序
-                    if (original[i] > original[j]) {
+                    if (original[j] > original[index]) {
                         index = j;
                     }
                 }
             }
             int temp = original[index];
-            original[i] = original[index];
-            original[index] = temp;
+            original[index] = original[i];
+            original[i] = temp;
         }
     }
 
     /**
-     * 插入排序 默认比较的前面数组时有序的，将比较数插入有序数组依然有序
+     * 插入排序 默认比较的前面数组是有序的，将比较数插入有序数组依然有序
      * @param original 原始数组
      * @param sort 是否升序 true升序，false降序
      */
