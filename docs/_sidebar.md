@@ -16,7 +16,7 @@
     * [常量](/grammer/constants)
     * [注释](/grammer/annotation)
     * [对象](/grammer/objdeclare)
-    * [方法](/grammer/function)
+    * [函数](/grammer/function)
     * [正则表达式](/grammer/regex)
     
 * 数据类型
@@ -26,6 +26,7 @@
     * [Math类](/datatype/math)
     * [Character类](/datatype/character)
     * [数组](/datatype/array)
+    * [String类](/datatype/string)
 
 * 语句声名
     * [顺序语句](/statement/order)
