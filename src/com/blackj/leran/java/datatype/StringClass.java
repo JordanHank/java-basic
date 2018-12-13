@@ -16,7 +16,7 @@ public class StringClass {
 
     /**
      * java中String类在开发中是一定会用到的类
-     * String类不属于基本类型，是一种特殊的引用类型，则说道引用类型第一点想到的就是初始值默认为null
+     * String类不属于基本类型，是一种特殊的引用类型，而说道引用类型第一点想到的就是初始值默认为null
      */
 
     public static void main(String [] args) throws Exception {
@@ -36,7 +36,7 @@ public class StringClass {
         String str2 = "java";
         /**
          * str3 = new String("java"),关键字new首先在堆内存创建java字符串对象，检查常量池中
-         * 是否已经存在java字符串对象，不存在则先创建然后把常量池中的对象内存地址赋值给对对象的引用，
+         * 是否已经存在java字符串对象，不存在则先创建然后把常量池中的对象内存地址赋值给堆对象的引用，
          * 存在就直接把常量池中的对象内存地址直接给堆内存对象引用，然后返回堆内存对象的内存地址。
          * str3 -> 在常量池中找到了java对象 -> 堆内存保存常量池对象的内存地址 -> 返回堆内存地址
          *
@@ -53,7 +53,7 @@ public class StringClass {
         //intern 方法可以返回该字符串在常量池中的对象的引用
         String str5 = str3.intern();
         String str6 = str4.intern();
-        System.out.println("str5 == str6: " + (str5 == str6));
+        System.out.println("str5 == str6: " + (str5 == str6)); //true
 
 
         /**
@@ -69,7 +69,7 @@ public class StringClass {
         /**
          * String真的不可以改变值吗？
          * 其实可以通过反射来修改String的值，因为保存值得数组变量value只是一个引用，并不是真的值，
-         * 所以可以通过反射修改数组value保存的值，达到修改String类的值得目的
+         * 其实可以通过反射来修改String的值，因为保存值得数组变量value只是一个引用，并不是真的值，
          */
 
         String test = "changeValueTest";
@@ -115,7 +115,7 @@ public class StringClass {
 
         //String的字符串拼接,一般直接使用+进行拼接
         name1 += "Zhang";
-        name.concat("_concat");
+        name = name.concat("_concat");
         System.out.println("name的值拼接后为：" + name);
         System.out.println("name1的值拼接后为：" + name1);
 
@@ -134,7 +134,7 @@ public class StringClass {
 
         //将字符串根据表达式进行拆分
         String hello = "Hello World !";
-        String [] vh = hello.split("\n");
+        String [] vh = hello.split("\\s+");
         System.out.println("拆分后：");
         for(String s: vh) {
             System.out.println(s);
