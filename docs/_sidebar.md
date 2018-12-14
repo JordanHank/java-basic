@@ -27,6 +27,7 @@
     * [Character类](/datatype/character)
     * [数组](/datatype/array)
     * [String类](/datatype/string)
+    * [时间日期](/datatype/timedate)
 
 * 语句声名
     * [顺序语句](/statement/order)
