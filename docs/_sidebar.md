@@ -29,6 +29,7 @@
     * [String类](/datatype/string)
     * [时间日期](/datatype/timedate)
     * [IO流](/datatype/io)
+    * [Scanner类](/datatype/scanner)
 
 * 语句声名
     * [顺序语句](/statement/order)
