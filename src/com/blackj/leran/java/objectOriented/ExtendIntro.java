@@ -22,7 +22,7 @@ public class ExtendIntro {
      * 接口允许多继承，因为接口没有对应的实现，只有方法的定义所以允许多继承
      *                    interface A extends interface B, C, D
      *
-     * 继承会提高代码的耦合对，使的代码独立性变差，程序过多的时候继承会导致后期维护困难，所以继承慎用
+     * 继承会提高代码间的耦合度，降低代码独立性，程序过多的使用继承会导致后期维护困难，所以继承慎用
      *
      * 为了解决java类无法实现多继承的问题，java引入了接口interface的概念
      * 类可以实现多个接口，通过关键字implements: class A implements interface B, C, D
