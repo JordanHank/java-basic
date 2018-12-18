@@ -36,4 +36,7 @@
     * [顺序语句](/statement/order)
     * [条件语句](/statement/condition)
     * [循环语句](/statement/circulation)
+    
+* 面向对象特征
+    * [继承](/objectoriented/extend)
    
