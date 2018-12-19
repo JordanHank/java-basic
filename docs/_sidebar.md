@@ -39,4 +39,5 @@
     
 * 面向对象特征
     * [继承](/objectoriented/extend)
+    * [多态](/objectoriented/ploymorphism)
    
