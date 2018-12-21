@@ -95,7 +95,7 @@ class Child extends AbstractParent {
     }
 
     public Child(String name, String hobby) {
-        //如果不写 super(name, age);这句，编译无法通过
+        //如果不写 super(name);这句，编译无法通过
         super(name);
         this.hobby = hobby;
     }
