@@ -38,6 +38,7 @@
     * [循环语句](/statement/circulation)
     
 * 面向对象特征
+    * [封装](/objectoriented/encapsulation)
     * [继承](/objectoriented/extend)
     * [多态](/objectoriented/ploymorphism)
     * [抽象类](/objectoriented/abstractclass)
