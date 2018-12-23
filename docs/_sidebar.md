@@ -42,4 +42,5 @@
     * [继承](/objectoriented/extend)
     * [多态](/objectoriented/ploymorphism)
     * [抽象类](/objectoriented/abstractclass)
+    * [接口](/objectoriented/interface)
    
