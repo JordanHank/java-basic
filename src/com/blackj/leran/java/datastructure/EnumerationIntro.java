@@ -21,7 +21,7 @@ public class EnumerationIntro {
     public static void main(String [] args) {
 
         /**
-         * 通过类或者接口的方法定义全局变量有违Java的面向对象的封装特性，增加的耦合。
+         * 通过类或者接口的方法定义全局变量有违Java的面向对象的封装特性，增加了代码间的耦合度。
          */
         System.out.println("类常量定义：" + WeekCons.MONDAY);
         System.out.println("接口常量定义：" + WeekConsInterface.MONDAY);
@@ -78,8 +78,6 @@ interface WeekConsInterface {
     String SATURDAY = "SATURDAY";
     String SUNDAY = "SUNDAY";
 }
-
-
 
 //枚举的形式定义常量
 enum WeekEnum {
