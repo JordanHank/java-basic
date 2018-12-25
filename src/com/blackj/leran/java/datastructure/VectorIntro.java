@@ -22,7 +22,7 @@ public class VectorIntro {
      */
     public static void main(String [] args) {
         /**
-         * Vector类的四中构造函数：
+         * Vector类的四种构造函数：
          *      Vector() 创建一个默认的向量，默认大小为10；
          *      Vector(int size) 创建指定大小的向量；
          *      Vector(int size,int incr) 创建指定大小的向量，并且指定向量每次增加的元素数目；
