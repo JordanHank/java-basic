@@ -31,7 +31,7 @@ Stack()
 ## 示例
 
 ``` java
-public class StackIntro {
+public class Demo {
 
     public static void main(String [] args) {
 

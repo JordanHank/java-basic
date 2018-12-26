@@ -50,4 +50,5 @@
     * [BitSet类](/datastructure/bitset)
     * [Vector向量](/datastructure/vector)
     * [Stack类](/datastructure/stack)
+    * [Dictionary类](/datastructure/dictionary)
    
