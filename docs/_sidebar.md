@@ -49,4 +49,5 @@
     * [枚举](/datastructure/enumeration)
     * [BitSet类](/datastructure/bitset)
     * [Vector向量](/datastructure/vector)
+    * [Stack类](/datastructure/stack)
    
