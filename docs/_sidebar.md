@@ -51,4 +51,5 @@
     * [Vector向量](/datastructure/vector)
     * [Stack类](/datastructure/stack)
     * [Dictionary类](/datastructure/dictionary)
+    * [Hashtable类](/datastructure/hashtable)
    
