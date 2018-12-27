@@ -114,7 +114,7 @@ while (keys.hasMoreElements()) {
 ## 示例
 
 ``` java
-public class HashTableIntro {
+public class Demo {
 
     public static void main(String [] args) {
 

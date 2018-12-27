@@ -52,4 +52,5 @@
     * [Stack类](/datastructure/stack)
     * [Dictionary类](/datastructure/dictionary)
     * [Hashtable类](/datastructure/hashtable)
+    * [Properties类](/datastructure/properties)
    
