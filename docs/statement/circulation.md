@@ -60,7 +60,7 @@ while (y < 0) {
 }
 ```
 
-## for 循环：
+## for 循环：:id=for-statement
 
 `for`循环分为普通`for`循环语句和增强`for`循环语句两种。
 

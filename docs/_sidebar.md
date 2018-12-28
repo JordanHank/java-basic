@@ -53,4 +53,6 @@
     * [Dictionary类](/datastructure/dictionary)
     * [Hashtable类](/datastructure/hashtable)
     * [Properties类](/datastructure/properties)
-   
+    
+* 集合框架
+    * [介绍](/collections/introduce)
