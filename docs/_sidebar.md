@@ -56,3 +56,4 @@
     
 * 集合框架
     * [介绍](/collections/introduce)
+    * [ArrayList类](/collections/arraylist)

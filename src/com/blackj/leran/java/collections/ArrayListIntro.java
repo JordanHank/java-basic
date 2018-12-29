@@ -25,7 +25,7 @@ public class ArrayListIntro {
      *
      * ArrayList的构造函数：
      *      ArrayList() 默认构造函数，底层数组大小默认为10，空间不如时新的容量=“(原始容量x3)/2 + 1”
-     *      ArrayList(int capacity) 指定数组大小的构造函数，空间不足时容量会添加上次容量的一般
+     *      ArrayList(int capacity) 指定数组大小的构造函数，空间不足时容量会添加上次容量的一半
      *      ArrayList(Collection<? extends E> collection) 指定Collection的创建
      *
      */
