@@ -59,3 +59,4 @@
     * [ArrayList类](/collections/arraylist)
     * [LinkedList类](/collections/linkedlist)
     * [HashMap类](/collections/hashmap)
+    * [Hashtable类](/collections/hashtable)
