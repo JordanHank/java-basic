@@ -37,7 +37,7 @@
     * [条件语句](/statement/condition)
     * [循环语句](/statement/circulation)
     * [泛型声明](/statement/generic)
-    * [序列化声名](/statement/serialize)
+    * [序列化声明](/statement/serialize)
     
 * 面向对象特征
     * [封装](/objectoriented/encapsulation)
@@ -69,3 +69,6 @@
     * [ServerSocket类](/internetprogram/serversocket)
     * [DatagramSocket类](/internetprogram/datagramsocket)
     * [URL](/internetprogram/url)
+
+* 多线程
+    * [介绍](/multithread/introduce)
