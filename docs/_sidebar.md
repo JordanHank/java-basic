@@ -74,4 +74,5 @@
     * [介绍](/multithread/introduce)
     * [生产者/消费者问题](/multithread/producerconsumer)
     * [死锁问题](/multithread/unlock)
+    * [Semaphore类](/multithread/semaphore)
     * [线程池](/multithread/threadpool)

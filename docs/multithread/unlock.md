@@ -78,7 +78,7 @@ class LockB implements Runnable{
 
 ## Semaphore 类
 
-为了解决这个问题，我们不使用显示的去锁，我们用信号量（Semaphore 类）去控制。信号量可以控制资源能被多少线程访问，这里我们指定只能被一个线程访问，就做到了类似锁住。而信号量可以指定去获取的超时时间，我们可以根据这个超时时间，去做一个额外处理。
+为了解决这个问题，我们不使用显示的去锁，我们用信号量（[Semaphore 类](/multithread/semaphore)）去控制。信号量可以控制资源能被多少线程访问，这里我们指定只能被一个线程访问，就做到了类似锁住。而信号量可以指定去获取的超时时间，我们可以根据这个超时时间，去做一个额外处理。
 对于无法成功获取的情况，一般就是重复尝试，或指定尝试的次数，也可以马上退出。
 
 信号量Semaphore有两种模式：
@@ -175,6 +175,3 @@ class LockB implements Runnable {
 #### 结果
 
 ![死锁信号量解决示例结果](../_media/multithread/unlockDemoResult.png)
-
-
-!> 关于Semaphore 类的更多知识可以查看我的博客[Semaphore源码解析](http://www.blackj.site/2018/11/16/Semaphore%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90/)
