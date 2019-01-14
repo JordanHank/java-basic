@@ -79,3 +79,4 @@
 
 * Applet
     * [介绍](/applet/introduce)
+    * [时钟示例](/applet/clock)
