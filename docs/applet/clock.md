@@ -149,3 +149,7 @@ public class AppletClock extends Applet implements Runnable {
     }
 }
 ```
+
+#### 结果
+
+![时钟示例结果图](../_media/applet/clock.png)
