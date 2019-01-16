@@ -83,3 +83,4 @@
 
 * 数据库操作
     * [JDBC连接](/database/jdbc)
+    * [DAO模式](/database/basedao)
