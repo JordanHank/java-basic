@@ -84,3 +84,6 @@
 * 数据库操作
     * [JDBC连接](/database/jdbc)
     * [DAO模式](/database/basedao)
+
+* 新版特性
+    * [JAVA 8新特性](/newfeatures/java8)
