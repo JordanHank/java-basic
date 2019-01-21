@@ -88,3 +88,5 @@
 * 新版特性
     * [JAVA 8新特性](/newfeatures/java8)
     * [JAVA 9新特性](/newfeatures/java9)
+
+* [总结](/summary)
