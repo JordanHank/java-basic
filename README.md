@@ -4,4 +4,4 @@
 
 > 配套文档
 
-[java-basic文档](http://www.blackj.site/java-basic/#/)，包含所有java 基础知识,可以Java 基础教学文档 ，帮助新手快速上手Java。
+[java-basic文档](http://www.jordanzhang.xyz/java-basic/#/)，包含所有java 基础知识,可以Java 基础教学文档 ，帮助新手快速上手Java。
