@@ -51,7 +51,7 @@ System.out.println("str5 == str6: " + (str5 == str6)); //true
 
 !> **注意：** `==`比较的是没存地址，equals()方法比较的是字符串的值，因为String 类重写了equals()方法。
 
->关于String内存存储的更深入的解析可以查看我的博客[String类的底层实现和内存存储](http://www.blackj.site/2018/09/24/String类的底层实现和内存存储)
+>关于String内存存储的更深入的解析可以查看我的博客[String类的底层实现和内存存储](http://www.jordanzhang.xyz/2018/09/24/String类的底层实现和内存存储)
 
 ## 不可变性
 

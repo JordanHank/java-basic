@@ -203,4 +203,4 @@ public class Demo {
 }
 ```
 
-关于HashMap 和 Hashtable 的区别对比，可以参考我的博客[HashMap和Hashtable的区别比较](http://www.blackj.site/2018/11/04/HashMap%E5%92%8CHashtable%E7%9A%84%E5%8C%BA%E5%88%AB%E6%AF%94%E8%BE%83/)
+关于HashMap 和 Hashtable 的区别对比，可以参考我的博客[HashMap和Hashtable的区别比较](http://www.jordanzhang.xyz/2018/11/04/HashMap%E5%92%8CHashtable%E7%9A%84%E5%8C%BA%E5%88%AB%E6%AF%94%E8%BE%83/)

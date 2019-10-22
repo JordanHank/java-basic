@@ -106,4 +106,4 @@ public class ThreadPoolDemo {
 }
 ```
 
-!> 关于线程池类的区别可以查看[java线程池的使用与区别解析](http://www.blackj.site/2018/11/14/java%E7%BA%BF%E7%A8%8B%E6%B1%A0%E7%9A%84%E4%BD%BF%E7%94%A8%E4%B8%8E%E5%8C%BA%E5%88%AB%E8%A7%A3%E6%9E%90/)
+!> 关于线程池类的区别可以查看[java线程池的使用与区别解析](http://www.jordanzhang.xyz/2018/11/14/java%E7%BA%BF%E7%A8%8B%E6%B1%A0%E7%9A%84%E4%BD%BF%E7%94%A8%E4%B8%8E%E5%8C%BA%E5%88%AB%E8%A7%A3%E6%9E%90/)

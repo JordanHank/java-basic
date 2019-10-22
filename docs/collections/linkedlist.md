@@ -250,4 +250,4 @@ public class Demo {
 }
 ```
 
-关于ArrayList 和 LinkedList 的区别对比，可以参考我的博客[ArrayList和LinkedList的区别比较](http://www.blackj.site/2018/10/30/ArrayList%E5%92%8CLinkedList%E7%9A%84%E5%8C%BA%E5%88%AB%E6%AF%94%E8%BE%83/)
+关于ArrayList 和 LinkedList 的区别对比，可以参考我的博客[ArrayList和LinkedList的区别比较](http://www.jordanzhang.xyz/2018/10/30/ArrayList%E5%92%8CLinkedList%E7%9A%84%E5%8C%BA%E5%88%AB%E6%AF%94%E8%BE%83/)

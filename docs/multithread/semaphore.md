@@ -102,4 +102,4 @@ class User extends Thread{
 
 ![Semaphore示例结果](../_media/multithread/semaphoreResult.png)
 
-!> 关于Semaphore 类的更多知识可以查看我的博客[Semaphore源码解析](http://www.blackj.site/2018/11/16/Semaphore%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90/)
+!> 关于Semaphore 类的更多知识可以查看我的博客[Semaphore源码解析](http://www.jordanzhang.xyz/2018/11/16/Semaphore%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90/)
